@@ -13,6 +13,7 @@ Key areas that were adjusted:
 - Adjusted overlap values between infill and walls
 - Reduced the number of walls and top/bottom layers
 - Monotonic top, to make top surface more presentable
+- I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Overall about 20% faster and with far less underextrusion issues
 
 Added an example 3Dbenchy printed with original and new profiles provided in the file list.
