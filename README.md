@@ -4,13 +4,13 @@ Had trouble finding Cura profiles for the Kobra Neo - most were derived from oth
 
 Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultimaker/Cura/releases and used the Anycubic Kobra printer preset as a starting point.
 
-The KobraNeoGcodes file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it called the auto leveling mesh information.
+The KobraNeoGcodes file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it calls the auto leveling mesh information.
 
 To add the profile, create a new printer (Settings -> Printer -> Add Printer) and add a Anycubic Kobra if you do not already have one. With that printer selected in the main window, go to Preferences -> Configure Cura.  Within the Profiles section, use the Import button.  To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
 
 Key areas that were adjusted:
 - conservatively turned up the speeds (e.g. 50mm/s to 60mm/s)
-- Adjusted overlap values between infill and walls, for example
+- Adjusted overlap values between infill and walls
 - Reduced the number of walls and top/bottom layers
 - Monotonic top, to make top surface more presentable
 - Overall about 20% faster and with far less underextrusion issues
