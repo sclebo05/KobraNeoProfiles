@@ -11,6 +11,7 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - With that printer selected in the main window, go to Preferences -> Configure Cura. 
 - Within the Profiles section, use the Import button and select the desired curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
+- Adjust your temperatures if needed for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
 
 ### Key areas that were adjusted:
 - conservatively turned up the speeds (e.g. 50mm/s to 55mm/s)
