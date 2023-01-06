@@ -14,11 +14,12 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Adjust your temperatures if needed for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
 
 ### Key areas that were adjusted:
-- conservatively turned up the speeds (e.g. 50mm/s to 55mm/s)
+- Conservatively increased speeds (e.g. 50mm/s to 55mm/s)
 - Adjusted overlap values between infill and walls
 - Reduced the number of walls and top/bottom layers
-- adjusted flow rates
+- Adjusted flow rates
 - Monotonic top, to make top surface more presentable
+- Ensured that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
 
