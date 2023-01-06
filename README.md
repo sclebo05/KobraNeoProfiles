@@ -15,6 +15,6 @@ Key areas that were adjusted:
 - adjusted flow rates
 - Monotonic top, to make top surface more presentable
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
-- Overall about 20% faster and with far less underextrusion issues and cleaner walls
+- Up to 20% faster and with far less underextrusion issues and cleaner walls
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles
