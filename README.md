@@ -22,5 +22,6 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Ensured that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
+- Added a 'fast' profile to even more speed, sacrificing accuracy
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles
