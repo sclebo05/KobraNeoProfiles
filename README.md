@@ -13,6 +13,7 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Within the Profiles section, use the Import button and select the desired curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
 - Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
+- Highly recommend adding the content of the GCodes.txt to the Machine Settings of the Kobra
 
 ### Key areas that were adjusted:
 - Conservatively increased speeds (e.g. 50mm/s to 55mm/s)
