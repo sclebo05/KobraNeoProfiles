@@ -7,11 +7,12 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 **The KobraNeoGcodes.txt file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it calls the auto leveling mesh information before beginning the print.**
 
 ### To add the profile:
-- Create a new printer (Settings -> Printer -> Add Printer) and add a Anycubic Kobra if you do not already have one.
+- Ensure you install **Cura 5.3.0 Alpha** or newer.  It is possible to have more than one version of Cura installed.
+- Create a new printer (Settings -> Printer -> Add Printer) and add a **Anycubic Kobra** if you do not already have one.
 - With that printer selected in the main window, go to Preferences -> Configure Cura. 
 - Within the Profiles section, use the Import button and select the desired curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
-- Adjust your temperatures if needed for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
+- Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
 
 ### Key areas that were adjusted:
 - Conservatively increased speeds (e.g. 50mm/s to 55mm/s)
@@ -22,6 +23,6 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Ensured that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
-- Added a 'fast' profile to even more speed, sacrificing accuracy
+- Added a 'fast' profile for even more speed, sacrificing accuracy
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles
