@@ -4,7 +4,7 @@ Had trouble finding Cura profiles for the Kobra Neo - most were derived from oth
 
 Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultimaker/Cura/releases and used the Anycubic Kobra printer preset as a starting point.
 
-**The KobraNeoGcodes.txt file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it calls the auto leveling mesh information before beginning the print.**
+**The KobraNeoGcodes.txt file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it calls the auto leveling mesh information before beginning the print. Helps with any profile, not just these.**
 
 ### To add the profile:
 - Ensure you install **Cura 5.3.0 Alpha** or newer.  It is possible to have more than one version of Cura installed.
