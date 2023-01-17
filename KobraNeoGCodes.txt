@@ -1,4 +1,6 @@
 ; Add these codes to the start and end sections of the Printer settings
+; In Cura navigate to Settings -> Printers -> Manage Printers and you will find Machine Settings. 
+; The below start and end sections can be pasted into the corresponding boxes.
 
 ; start gcode
 
@@ -19,6 +21,7 @@ M109 S[first_layer_temperature]
 M117 Start cleaning ...
 M420 S1 ; Enable Bed Levelling Mesh
 G92 E0 ;zero the extruded length
+;M413 S0 ; uncomment to disable power loss recovery - may improve quality
 M117 Intro line ...
 G1 Z2.0 F3000 ; Move Z Axis up little to prevent scratching of Heat Bed
 G1 X0.1 Y20 Z[first_layer_height] F5000.0 ; Move to start position
