@@ -37,3 +37,5 @@ Anyconnect has firmware 1.2.8 available on their website. Many printers are ship
 Build intructions can be found at https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/
 
 A few github contributers have forked the original source code to provide other enhancements. Do so at your own risk. The above profiles are designed to work with 'stock' firmware from the vendor.
+
+<a href="https://www.buymeacoffee.com/PYwIRuDB11" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
