@@ -27,4 +27,13 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
 - Added a 'fast' profile for even more speed, sacrificing accuracy
 
-Added an example .jpg of a 3Dbenchy printed with original and new profiles
+Added an example .jpg of a 3Dbenchy printed with original and new profiles.
+
+### Firmware Upgrades
+I would advise against upgrading firmware AND playing with profiles until you have your printer reasonably tuned. Doing both at once could lead to some frustration.
+
+Anyconnect has firmware 1.2.8 available on their website. Many printers are shipping with a newer version. If you're interested in upgrading your printer's firmware, the official sources for 1.3.3 can be found at https://github.com/ANYCUBIC-3D/Kobra_Neo
+
+Build intructions can be found at https://www.reddit.com/r/anycubic/comments/y2waxu/tutorial_how_to_build_anycubic_marlin_source_code/
+
+A few github contributers have forked the original source code to provide other enhancements. 
