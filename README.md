@@ -23,6 +23,7 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Monotonic top, to make top surface more presentable
 - Ensured that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
+- Disabled power-loss recovery to prevent blobbing and odd behavior during resume
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
 - Added a 'fast' profile for even more speed, sacrificing accuracy
 
