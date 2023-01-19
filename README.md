@@ -38,4 +38,5 @@ Build intructions can be found at https://www.reddit.com/r/anycubic/comments/y2w
 
 A few github contributers have forked the original source code to provide other enhancements. Do so at your own risk. The above profiles are designed to work with 'stock' firmware from the vendor.
 
+I've been working on these profiles in between my desired prints.  An occasional coffee helps me with the filament (and time) that I burn while testing. Throw a coffee my way, it's appreciated!
 <a href="https://www.buymeacoffee.com/PYwIRuDB11" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
