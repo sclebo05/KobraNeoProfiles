@@ -21,7 +21,8 @@ Created the Cura profiles in Cura 5.3.0 Alpha found at https://github.com/Ultima
 - Reduced the number of walls and top/bottom layers
 - Adjusted flow rates
 - Monotonic top, to make top surface more presentable
-- Ensured that walls print before infill, reducing artifacts
+- Adjusted the Top/Bottom line direction - normally moves X and Y at 45 degrees, now moves X back and forth and increments Y row by row. (90,0)
+- Ensure that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Disabled power-loss recovery to prevent blobbing and odd behavior during resume
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
