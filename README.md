@@ -6,21 +6,6 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 
 **The KobraNeoGcodes.txt file has useful start and end codes for the printer, copy and paste these into your slicer's machine settings. I believe this was an important step, as it calls the auto leveling mesh information before beginning the print. Helps with any profile, not just these.**
 
-### To add the profile to Cura:
-- Ensure you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
-- Create a new printer (Settings -> Printer -> Add Printer) and add a **Anycubic Kobra** if you do not already have one.
-- With that printer selected in the main window, go to Preferences -> Configure Cura. 
-- Within the Profiles section, use the Import button and select the desired curaprofile file.  
-- To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
-- Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
-- Highly recommend adding the contents of the KobraNeoGCodes.txt file to the Machine Settings of the Kobra
-
-### To add the profile to Prusa or SuperSlicer:
-- Go to File -> Import -> Import Config
-- Select the desired config.ini file for import
-- Once imported, go through Print Settings, Filament, and Printer sections and click the Save Icon to save/rename the profiles locally
-- Highly recommend adding the contents of the KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
-
 ### Key areas that were adjusted:
 - Conservatively increased speeds (e.g. 50mm/s to 55mm/s)
 - Adjusted overlap values between infill and walls
@@ -35,6 +20,20 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 - Added a 'fast' profile for even more speed, sacrificing accuracy
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles.
+### To add the profile to Cura:
+- Ensure you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
+- Create a new printer (Settings -> Printer -> Add Printer) and add a **Anycubic Kobra** if you do not already have one.
+- With that printer selected in the main window, go to Preferences -> Configure Cura. 
+- Within the Profiles section, use the Import button and select the desired curaprofile file.  
+- To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
+- Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
+- Highly recommend adding the contents of the KobraNeoGCodes.txt file to the Machine Settings of the Kobra
+
+### To add the profile to Prusa or SuperSlicer:
+- Go to File -> Import -> Import Config
+- Select the desired config.ini file for import
+- Once imported, go through Print Settings, Filament, and Printer sections and click the Save Icon to save/rename the profiles locally
+- Highly recommend adding the contents of the KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
 
 ### Firmware Upgrades:
 I would advise against upgrading firmware AND playing with profiles until you have your printer reasonably tuned. Doing both at once could lead to some frustration.
