@@ -17,7 +17,7 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 
 ### To add the profile to Prusa or SuperSlicer:
 - Go to File -> Import -> Import Config
-- Select the desired config.ini file for important
+- Select the desired config.ini file for import
 - Once imported, go through Print Settings, Filament, and Printer sections and click the Save Icon to save/rename the profiles locally
 - Highly recommend adding the contents of the KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
 
