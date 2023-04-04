@@ -8,23 +8,24 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 
 ### Key areas that were adjusted:
 - Conservatively increased speeds (e.g. 50mm/s to 55mm/s)
-- Adjusted overlap values between infill and walls
+- Increased the overlap values between infill and walls
 - Reduced the number of walls and top/bottom layers
+- Ensure that walls print before infill, reducing artifacts
 - Adjusted flow rates
 - Monotonic top, to make top surface more presentable
 - Adjusted the Top/Bottom line direction - normally moves X and Y at 45 degrees, now moves X back and forth and increments Y row by row. (90,0)
-- Ensure that walls print before infill, reducing artifacts
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Disabled power-loss recovery to prevent blobbing and odd behavior during resume
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
 - Added a 'fast' profile for even more speed, sacrificing accuracy
 
-Added an example .jpg of a 3Dbenchy printed with original and new profiles.
+Added an example .jpg of a 3Dbenchy printed with original and new profiles [here](Original-and-new-Examples.jpg)
+
 ### To add the profile to Cura:
-- Ensure you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
-- Create a new printer (Settings -> Printer -> Add Printer) and add a **Anycubic Kobra** if you do not already have one.
+- Ensure that you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
+- Create a new printer (Settings -> Printer -> Add Printer) and add an **Anycubic Kobra** if you do not already have one.
 - With that printer selected in the main window, go to Preferences -> Configure Cura. 
-- Within the Profiles section, use the Import button and select the desired curaprofile file.  
+- Within the Profiles section, use the Import button and select the desired .curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
 - Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
 - Highly recommend adding the contents of the KobraNeoGCodes.txt file to the Machine Settings of the Kobra
