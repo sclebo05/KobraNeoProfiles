@@ -21,7 +21,7 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles [here](Original-and-new-Examples.jpg)
 
-For Installation Help, see the [Install.md](Install.md) file
+**For Installation Help**, see the [Install.md](Install.md) file
 
 ### A note about Firmware Upgrades:
 I would advise against upgrading firmware AND playing with profiles until you have your printer reasonably tuned. Doing both at once could lead to some frustration.
