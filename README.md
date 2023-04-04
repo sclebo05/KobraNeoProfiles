@@ -21,22 +21,9 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 
 Added an example .jpg of a 3Dbenchy printed with original and new profiles [here](Original-and-new-Examples.jpg)
 
-### To add the profile to Cura:
-- Ensure that you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
-- Create a new printer (Settings -> Printer -> Add Printer) and add an **Anycubic Kobra** if you do not already have one.
-- With that printer selected in the main window, go to Preferences -> Configure Cura. 
-- Within the Profiles section, use the Import button and select the desired .curaprofile file.  
-- To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
-- Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
-- Highly recommend adding the contents of the KobraNeoGCodes.txt file to the Machine Settings of the Kobra
+For Installation Help, see the [Install.md](Install.md) file
 
-### To add the profile to Prusa or SuperSlicer:
-- Go to File -> Import -> Import Config
-- Select the desired config.ini file for import
-- Once imported, go through Print Settings, Filament, and Printer sections and click the Save Icon to save/rename the profiles locally
-- Highly recommend adding the contents of the KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
-
-### Firmware Upgrades:
+### A note about Firmware Upgrades:
 I would advise against upgrading firmware AND playing with profiles until you have your printer reasonably tuned. Doing both at once could lead to some frustration.
 
 Anycubic has firmware 1.2.8 available on their website. Many printers are shipping with a newer version. If you're interested in upgrading your printer's firmware, the official sources for 1.3.3 can be found at https://github.com/ANYCUBIC-3D/Kobra_Neo
