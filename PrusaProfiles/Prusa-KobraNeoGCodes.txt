@@ -1,6 +1,5 @@
-; Add these codes to the start and end sections of the Printer settings
-; In Cura navigate to Settings -> Printers -> Manage Printers and you will find Machine Settings. 
-; The below start and end sections can be pasted into the corresponding boxes.
+; Add these codes to the start and end sections of the Printer settings within Prusa
+; 2023-04-11
 
 ; start gcode
 
