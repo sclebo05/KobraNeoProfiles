@@ -7,14 +7,14 @@
 - Within the Profiles section, use the Import button and select the desired .curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
 - Adjust your temperatures for better flow or to mitigate stringing. I have set reasonable PLA/PLA+ defaults
-- Highly recommend adding the contents of the KobraNeoGCodes.txt file to the Machine Settings of the Kobra. 
+- Highly recommend adding the contents of the Cura-KobraNeoGCodes.txt file to the Machine Settings of the Kobra. 
   Settings -> Printers -> Manage Printers -> AnyCubic Kobra -> Machine Settings and paste the Start and End sections.
 
 ### To add the profile to Prusa or SuperSlicer:
 - Go to File -> Import -> Import Config
 - Select the desired config.ini file for import
 - Once imported, go through Print Settings, Filament, and Printer sections and click the Save Icon to save/rename the profiles locally
-- Highly recommend adding the contents of the KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
+- Highly recommend adding the contents of the Prusa-KobraNeoGcodes.txt file under the Custom G-code section of Printer Settings (Expert)
 
 --- 
 
