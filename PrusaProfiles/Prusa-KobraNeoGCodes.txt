@@ -27,7 +27,7 @@ G1 X0.1 Y200.0 Z[first_layer_height] F1500.0 E15 ; Draw the first line
 G1 X0.4 Y200.0 Z[first_layer_height] F1500.0 ; Move to side a little
 G1 X0.4 Y20 Z[first_layer_height] F1500.0 E30 ; Draw the second line
 G92 E0 ; Reset Extruder
-G1 X5 Y20 Z0.3 F240 ; Move over to prevent blob squish
+G1 X5 Y20 Z0.3 F240 ; Move over and up to prevent blob squish
 G92 E0 ; Reset Extruder
 M420 S1 ; Enable Bed Levelling Mesh
 M117 Printing...
