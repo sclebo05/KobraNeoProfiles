@@ -19,7 +19,7 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
 - Added a 'fast' profile for even more speed, sacrificing accuracy
 
-Added an example .jpg of a 3Dbenchy printed with original and new profiles [here](Original-and-new-Examples.jpg)
+Samples of a 3Dbenchy printed with original and new profiles ![example benchys](Original-and-new-Examples.jpg)
 
 ### Installation Help
 See the [Install.md](Install.md) file
