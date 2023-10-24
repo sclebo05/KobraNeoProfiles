@@ -1,17 +1,21 @@
+Skipped the web GUI, just ran the Gcode directly
+
 M503
 ...
 Recv: echo:; Maximum feedrates (units/s):
 Recv: echo:  M203 X300.00 Y300.00 Z4.00 E25.00  <- set to 25 by default
 
 
-M203 E50   <- setting to 50 MAX
-Recv: ok
+M203 E60   <- setting to 50 MAX
 
 
 M503
 ...
 Recv: echo:; Maximum feedrates (units/s):
-Recv: echo:  M203 X300.00 Y300.00 Z4.00 E50.00  <- max is now 50
+Recv: echo:  M203 X300.00 Y300.00 Z4.00 E60.00  <- max is now 60
+
+M500 to save to flash!  Klipper would use SAVE_CONFIG I think
+
+Printed with 40mm/s, saw little improvement over 25.
 
 
-M500 to save!
