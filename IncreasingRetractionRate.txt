@@ -19,3 +19,11 @@ M500 to save to flash!  Klipper would use SAVE_CONFIG I think
 Printed with 40mm/s, saw little improvement over 25.
 
 
+Estep Values
+
+Recv: echo: M92 X80.00 Y80.00 Z400.00 E390
+
+Tried M92 E405 and saved with M500, no effect on stringing
+
+
+
