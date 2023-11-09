@@ -17,7 +17,7 @@ Created the Cura profiles for Cura 5.3.0 Beta found at https://github.com/Ultima
 - I primarily print in PLA+, so temps are a few degrees higher. Tune to taste.
 - Disabled power-loss recovery to prevent blobbing and odd behavior during resume
 - Up to 20% faster and with far less underextrusion issues and cleaner walls
-- Added a 'fast' profile for tuned printers with even more speed
+- Added a 'fast' profile for tuned printers with even more speed. YMMV
 
 Samples of a 3Dbenchy printed with original and new profiles ![example benchys](Original-and-new-Examples.jpg)
 
