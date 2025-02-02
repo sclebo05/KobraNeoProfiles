@@ -3,7 +3,7 @@
 ### To add the profile to Cura:
 - Ensure that you install **Cura 5.3.0 Beta** or newer.  It is possible to have more than one version of Cura installed.
 - Create a new printer (Settings -> Printer -> Add Printer) and add an **Anycubic Kobra** if you do not already have one.
-> If you already have a printer configured make sure it not configured as a custom printer, otherwise you will get the error: `Quality type 'pla' is not compatibe with the current active machine definition 'fdmprinter'`
+> If you already have a printer configured, make sure it not configured as a custom printer, otherwise you will get the error: `Quality type 'pla' is not compatibe with the current active machine definition 'fdmprinter'`
 - With that printer selected in the main window, go to Preferences -> Configure Cura. 
 - Within the Profiles section, use the Import button and select the desired .curaprofile file.  
 - To switch between profiles in the main window, use the drop-down in the Print Settings dialog.
